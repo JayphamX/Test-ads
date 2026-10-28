@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Tin Nhanh 24h",
+    "slug": "tintuc-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.nhom.tintuc"
+    },
+    "plugins": [
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-3940256099942544~3347511713",
+          "iosAppId": "ca-app-pub-3940256099942544~1458002511"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "88042c62-b667-45fc-82a0-ab55fcdcfdba"
+      }
+    },
+    "owner": "jayphamx"
+  }
+}
